@@ -1,0 +1,17 @@
+.-b-news{
+    margin-bottom: 20px;
+}
+.-b-news-heading{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+}
+.-b-news-heading a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.-b-news-content{
+    font-size: 16px;
+    height: 44px;
+    overflow: hidden;
+}

@@ -1,0 +1,27 @@
+.-b-body{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.-b-sidenav-menu{
+  background-color: #333;
+  height: 960px;
+  color: white;
+}
+.-b-side{
+  width: 15%;
+  /* background-color: #2C497F; */
+  background-color: #05204A; /* oxford blue */
+  height: 100%;
+  position: fixed;
+  left: 0;
+}
+.-b-main{
+  width: 85%;
+  height: 1500px;
+  margin-left: 15%;
+  padding-top: 50px;
+}
+.-b-content{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
