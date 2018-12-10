@@ -1,0 +1,41 @@
+.date{
+    font-weight: bold;
+}
+.QA_main{
+    background-color:'#fff';
+    padding-top: 20px;
+    padding-left: 0px !important;
+    padding-right:  0px !important;
+}
+
+.query_card{
+    background-color:#fff;
+    padding: 15px;
+    color: black;
+    border: 1px solid #0000001c;
+}
+.AllPost_date{
+    float: right;
+    color: #616161;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.AllPost_body{
+    color: #616161;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: block;
+    display: -webkit-box;
+    max-height: 25px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.AllPost_head{
+    letter-spacing: 1px;
+}
+.AllPost_user_ico{
+    width: 40px;
+    padding: 10px 0px 10px 0px;
+}

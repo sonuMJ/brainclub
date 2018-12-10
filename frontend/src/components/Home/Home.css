@@ -21,13 +21,17 @@
     width: 100%;
     height: 750px;
 }
-
+.-b-homemain-content{
+    position: absolute;
+    top: 0px;
+}
 .-b-homemain-title{
-    font-size: 8vh;
+    font-size: 5em;
     font-weight: bold;
     color: white;
-    margin-top: 28%;
-    margin-left: 10%;
+    margin-top: 568px;
+    margin-left: 50px;
+    font-family:sans-serif ;
 }
 .-b-homeabout-title{
     margin-top: 140px;
@@ -42,13 +46,26 @@
     text-align: justify;
 }
 .-b-homeabout-img{
-    margin-top: 150px;
+    margin-top: 210px;
 }
 .-b-homeabout-btn{
     width: 200px;
     padding: 14px;
     font-size: 24px;
     border: 1px solid #333;
+    background-color: #ccc;
+    color: black;
+    margin-left: 124px;
+}
+
+.-b-homeabout-btn_readmore{
+    width: 200px;
+    padding: 14px;
+    font-size: 24px;
+    border: 1px solid #333;
+    background-color: #ccc;
+    color: black;
+    margin-left: 0px;
 }
 .-b-homewhy-paragraph{
     font-size: 30px;
@@ -62,4 +79,23 @@
     background-size: contain;
     height: 400px;
     opacity: 0.8;
+}
+.-b-blockquote-bottom{
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #ffffad;
+    padding-top: 65px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    border-left: 10px solid #ffc107;
+}
+.-b-blockquote-bottom::before{
+    font-family: Arial, Helvetica, sans-serif;
+    content: "\201C" !important;
+    font-size: 92px;
+    position: absolute;
+}
+.-b-blockquote-bottom-div{
+    padding-top: 60px;
+    padding-bottom: 46px;
 }

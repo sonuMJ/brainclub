@@ -22,7 +22,7 @@ class Singlenews extends React.Component{
         this.fetchNews();
     }
     fetchNews(){
-        fetch(`http://localhost:4000/news/${this.props.match.params.id}`)
+        fetch(`/news/${this.props.match.params.id}`)
         .then(res => {
             if(!res.ok) {
                 // redirect to 404 page

@@ -1,0 +1,51 @@
+.aboutus_main_div{
+}
+.aboutus_content_div{
+    padding: 30px;
+    letter-spacing: 1.5px;
+    color: #333333;
+}
+.aboutus_para{
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 35px;
+    padding-left: 7px;
+}
+.aboutus_para_ul{
+    padding: 20px;
+}
+.aboutus_para_i{
+    font-weight: bold;
+}
+.aboutus_img{
+    margin: auto;
+    padding: 20px;
+}
+.aboutus_sub_head{
+    padding: 40px 0px 15px 0px;
+    color: #065ce2;
+}
+.aboutus_sidenav {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    right: 0px;
+    border-left: 1.5px solid #00000061;
+    overflow-x: hidden;
+    padding: 20px;
+    height: 100%;
+    background-color: azure;
+}
+
+.aboutus_sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    color: #000 !important;
+}
+
+.aboutus_sidenav a:active {
+    color: #064579;
+    font-size: 17px;
+}

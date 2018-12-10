@@ -1,3 +1,9 @@
+/* font */
+@font-face{
+  font-family: "BC_font_content";
+  src: url('./fonts/Raleway-Regular.ttf');
+}
+
 .-b-body{
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -19,9 +25,57 @@
   width: 85%;
   height: 1500px;
   margin-left: 15%;
-  padding-top: 50px;
+  font-family: "BC_font_content";
+  /* padding-top: 50px; */
 }
 .-b-content{
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
+/* responsive */
+
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+}
+
+@media only screen and (max-width : 1024px) {
+  .-b-homemain-title{
+    font-size: 4em !important;
+    margin-top: 200px !important;
+  }
+  .-b-homeabout-img{
+    margin-top: 360px !important;
+  }
+  .-b-blockquote-paragraph{
+    font-size: 20px !important;
+  }
+  .aboutus_sidenav{
+    top: 60px !important;
+  }
+}
+
+/* Medium Devices, Desktops */
+/* Portrait tablet to landscape and desktop */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px)  and (max-width : 1399px) {
+  .-b-homemain-title{
+    margin-top: 320px !important;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (max-width : 1824px) {
+  /* Styles */
+  }
+  

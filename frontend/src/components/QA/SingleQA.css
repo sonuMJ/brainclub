@@ -1,0 +1,78 @@
+
+.Post_form{
+    width: 100%;
+    padding-top: 30px;
+}
+.comment_button{
+    text-align: right;
+    padding: 20px;
+}
+
+.Post_body{
+    padding: 10px;
+    color: #616161;
+    letter-spacing: 1.5px;
+}
+.Post_main{
+    background-color: #f0f0f5;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+}
+.Post_div{
+    background-color: #fff;
+}
+.Post_thread{
+    background-color:#fff;
+    padding: 15px;
+    color: black;
+    border: 1px solid #0000001c;
+}
+.query_card{
+    background-color:#fff;
+    padding: 15px;
+    color: black;
+    border: 1px solid #0000001c;
+}
+.Post_date{
+    float: right;
+    color: #616161;
+    letter-spacing: 1px;
+}
+.Post_body{
+    color: #616161;
+    letter-spacing: 1px;
+    display: block;
+    display: -webkit-box;
+    max-height: 30px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Post_head{
+    letter-spacing: 1px;
+}
+.Post_user_ico{
+    width: 50px;
+    padding: 20px 0px 20px 0px;
+}
+.Post_thread_comment{
+    padding-top: 30px;
+}
+.Post_thread_comment_reply{
+    width: 25px;
+    cursor: pointer;
+}
+.Post_thread_reply{
+    background-color:#f1f1f133;;
+    padding: 15px;
+    color: black;
+    border: 1px solid #0000001c;
+    border-left: 3px solid #858994;
+}
+.Post_thread_viewreply{
+    color: #03a9f4 !important;
+    cursor: pointer;
+    text-decoration: none !important;
+}

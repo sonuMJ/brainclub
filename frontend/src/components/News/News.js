@@ -28,7 +28,7 @@ class News extends React.Component{
         this.fetchNews();
     }
     fetchNews(){
-        fetch(`http://localhost:4000/news`)
+        fetch(`/news`)
         .then(res => res.json())
         .then(result => {
             this.setState({

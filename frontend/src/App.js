@@ -9,6 +9,9 @@ import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import News from './components/News/News';
 import Singlenews from './components/News/Singlenews';
+import SingleQA from './components/QA/SingleQA';
+import QA from './components/QA/QA';
+import Aboutbrain from './components/aboutus/Aboutbrain';
 
 
 class App extends Component {
@@ -17,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid -b-body">
-        <Topnavigation />
+        {/* <Topnavigation /> */}
         <div className="-b-side">
             <Sidenavigation />
         </div>
@@ -30,6 +33,9 @@ class App extends Component {
                     <Route path="/signup" exact component={ Signup } />
                     <Route path="/news" exact component={ News } />
                     <Route path="/news/:id" component={ Singlenews } />
+                    <Route path="/posts/:id" component={ SingleQA } />
+                    <Route path="/posts" component={ QA } />
+                    <Route path="/about-brain" component={ Aboutbrain } />
                 </Switch>
             </div>
         </div>

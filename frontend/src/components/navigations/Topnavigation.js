@@ -15,7 +15,7 @@ class Topnavigation extends React.Component{
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav navbar-right -b-top-nav-ul">
-                    <li className="active"><a href="#">Home</a></li>
+                    {/* <li className="active"><a href="#">Home</a></li>
                         <li className="dropdown">
                         <a className="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span className="caret"></span></a>
                         <ul className="dropdown-menu">
@@ -23,7 +23,7 @@ class Topnavigation extends React.Component{
                             <li><a href="#">Page 1-2</a></li>
                             <li><a href="#">Page 1-3</a></li>
                         </ul>
-                        </li>
+                        </li> */}
                         <li><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link ></li>
                     </ul>
                     </div>

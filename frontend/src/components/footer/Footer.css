@@ -1,0 +1,16 @@
+.-b-footer{
+    background-color: #333;
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+.-b-footer-ul{
+    list-style-type: none;
+    padding-inline-start:0px !important; 
+}
+.-b-footer-br{
+    border-top: 1px solid #565151 !important;
+}
+.-b-footer-menu{
+    padding-bottom: 40px;
+}
